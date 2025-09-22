@@ -7,10 +7,12 @@
     <body>
         <!-- HEADER -->
         <header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tweets.html">Tweets</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tweets.html">Tweets</a></li>
+                </ul>
+            </nav>
         </header>
 
         <!-- MAIN -->
@@ -18,23 +20,32 @@
             <!-- Article content -->
             <article>
                 <h1>My Favorite Tweets</h1>
+                <!-- Example embedded tweet -->
                 <blockquote class="twitter-tweet">
                     <p lang="en" dir="ltr">Learning HTML step by step 🚀</p>
                     &mdash; Edwin Omorowa (@yourhandle)
+                    <a
+                        href="https://twitter.com/yourhandle/status/1234567890">March
+                        1, 2025</a>
                 </blockquote>
             </article>
 
             <!-- Aside placeholder -->
             <aside>
-                <p>placeholder to add comment thread later</p>
+                <p>Placeholder to add comment thread later</p>
             </aside>
         </main>
 
         <!-- FOOTER -->
         <footer>
-            <p>Made by Edwin Omorowa - <a
-                    href="https://github.com/edwinomorowa33-Geek"
-                    target="_blank">here</a></p>
+            <p>Made by Edwin Omorowa -
+                <a href="https://github.com/edwinomorowa33-Geek"
+                    target="_blank">here</a>
+            </p>
         </footer>
+
+        <!-- Twitter Embed Script -->
+        <script async src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"></script>
     </body>
 </html>
